@@ -134,10 +134,6 @@ And here are some of the software, plugins or libraries I have contributed to:
 - [napari-plot-profile](https://github.com/haesleinhuepf/napari-plot-profile)  
   *A napari plugin for plotting line profiles of images and 3D views out of 2D images.*
 
-## Latest Contributions
-<!--contrib-start-->
-<!--contrib-end-->
-
 ## Open-Source Training Materials
 
 - [BioImage Analysis and Data Processing Workshop 2025](https://biapol.github.io/BioImage-Analysis-and-Data-Processing-Workshop-2025/intro.html)  
@@ -179,13 +175,14 @@ And here are some of the software, plugins or libraries I have contributed to:
 
 ---
 
-## Additional Links
-
+## Latest Contributions
+<!--contrib-start-->
+<!--contrib-end-->
 
 ---
 
 _Last updated: July 2025_
 
----
+
 
 
