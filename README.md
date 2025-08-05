@@ -133,7 +133,10 @@ And here are some of the software, plugins or libraries I have contributed to:
   *Browse your OMERO database from within napari.*
 - [napari-plot-profile](https://github.com/haesleinhuepf/napari-plot-profile)  
   *A napari plugin for plotting line profiles of images and 3D views out of 2D images.*
----
+
+## Latest Contributions
+<!--contrib-start-->
+<!--contrib-end-->
 
 ## Open-Source Training Materials
 
