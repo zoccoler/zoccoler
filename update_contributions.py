@@ -55,15 +55,26 @@ def group_latest_by_repo(prs, skip_repo):
     return latest
 
 def make_markdown_section(latest_by_repo):
+    # Sort entries by PR 'closed_at' (which is the merged date), most recent first
+    items = sorted(
+        latest_by_repo.items(),
+        key=lambda x: x[1]['closed_at'],
+        reverse=True
+    )
     lines = []
-    for repo, pr in sorted(latest_by_repo.items()):
+    for repo, pr in items:
         line = f"- **[{repo}](https://github.com/{repo})**: [#{pr['number']} {pr['title']}]({pr['html_url']}) (merged {pr['closed_at'][:10]})"
         lines.append(line)
     return "\n".join(lines)
 
+
+from datetime import datetime
+
 def update_readme(new_section):
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
+
+    # Update contributions section as before
     section_re = re.compile(
         r"(<!--contrib-start-->)(.*?)(<!--contrib-end-->)",
         re.DOTALL,
@@ -73,8 +84,21 @@ def update_readme(new_section):
         content = section_re.sub(replacement, content)
     else:
         content += f"\n## Latest Contributions\n{replacement}\n"
+
+    # Update or insert last updated date
+    today_str = datetime.now().strftime("%B %Y")
+    last_updated_re = re.compile(r"_Last updated:.*?_")
+    new_last_updated = f"_Last updated: {today_str}_"
+
+    if last_updated_re.search(content):
+        content = last_updated_re.sub(new_last_updated, content)
+    else:
+        # Add at the very end, separated by a blank line
+        content = content.rstrip() + "\n\n" + new_last_updated + "\n"
+
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
+
 
 def main():
     prs = fetch_merged_prs(USERNAME)
