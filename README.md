@@ -1,5 +1,7 @@
 # Marcelo L. Zoccoler
 
+![Profile Image](./marcelo.jpg)
+
 ## Contact
 
 - **GitHub:** [zoccoler](https://github.com/zoccoler)
