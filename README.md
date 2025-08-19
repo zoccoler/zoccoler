@@ -47,7 +47,7 @@ I am a Electrical Engineer and Software Developer with 10+ years experience with
   [Center for Biomedical Engineering (CEB) ‑ University of Campinas (UNICAMP)](https://www.ceb.unicamp.br/), Campinas, Brazil  
   *Jul. 2019 - Jun. 2020*
   - Wrote documentation and parallelised code for the research project entitled ”Multi‑scale mathematical modeling of the neuromuscular system for studying the influence of amyotrophic lateral sclerosis on muscle force control”.
-- **Masters and PhD Researcher**
+- **Masters and PhD Researcher**  
   [School of Electrical and Computer Engineering (FEEC), University of Campinas (UNICAMP)](https://www.fee.unicamp.br/), Campinas, Brazil  
   *Jan. 2012 - Jun. 2019*
   - Designed and built microfluorimetry system for fluorescence imaging.
@@ -55,16 +55,16 @@ I am a Electrical Engineer and Software Developer with 10+ years experience with
   - Implemented calcium calibration techniques onto fluorescence images.
   - Developed software for image analysis and real‑time signal processing.
   - Developed new techniques to filter cellular signals from noisy observations.
-- **Research Assistant**
+- **Research Assistant**  
   [French Alternative Energies and Atomic Energy Commission (CEA)](https://www.cea.fr/english/Pages/Welcome.aspx), Grenoble, France  
   *Jan. 2011 - Jul. 2011*
   - Analyzed fluorescence images from microtubules and tracked fluorescent beads.
   - Modeled filament mechanical resistance from microtubule fluorescence images.
-- **Internship**
+- **Internship**  
   Daitan Group, Campinas, Brazil  
   *Jan. 2010 - Jul. 2010*
   - Assisted testing bug fixes on VoIP communication protocols.
-- **Undergraduate Researcher**
+- **Undergraduate Researcher**  
   [School of Electrical and Computer Engineering (FEEC), University of Campinas (UNICAMP)](https://www.fee.unicamp.br/), Campinas, Brazil  
   *Jun. 2008 - Jun. 2009*
   - Developed interface and software for an ultra‑sonic transducer characterization system.
@@ -174,7 +174,7 @@ And here are some of the software, plugins or libraries I have contributed to:
 
 ## Publications
 
-- **ORCID:** https://orcid.org/0000-0002-6165-4679
+[![ORCID logo](./Asset-3.png)](https://orcid.org/0000-0002-6165-4679)
 
 ---
 
