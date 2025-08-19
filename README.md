@@ -68,6 +68,7 @@ I am a Electrical Engineer and Software Developer with 10+ years experience with
   [School of Electrical and Computer Engineering (FEEC), University of Campinas (UNICAMP)](https://www.fee.unicamp.br/), Campinas, Brazil  
   *Jun. 2008 - Jun. 2009*
   - Developed interface and software for an ultra‑sonic transducer characterization system.
+
 ---
 
 ## Skills
